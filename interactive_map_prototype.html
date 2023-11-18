@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>Map Prototype</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<audio autoplay>
+<source src="BeyondTheSea.mp3" type="audio/mpeg">
+No audio support!
+</audio>
+<div>
+<img id="map" src="images\map_stage1.jpeg" onmousemove="test(event)" alt="a picture of a map" usemap="#mapMap">
+<div id="info">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque felis, ullamcorper et felis consectetur, dignissim fermentum mi. Proin aliquam ac sapien eget iaculis. Sed porttitor ligula sit amet massa accumsan, a dapibus turpis efficitur. Praesent eu massa ornare eros varius placerat nec at nisl. Pellentesque elementum egestas augue, sit amet accumsan metus gravida eu. Praesent sed sapien velit. Nunc blandit, sapien et egestas euismod, enim velit condimentum mi, sed porttitor lacus arcu et arcu. Vestibulum eu bibendum lectus, eu feugiat ipsum. Nunc eu luctus nisl, vel finibus purus. In eu ex non diam accumsan molestie ac eget risus. Fusce porttitor volutpat metus, ac dictum mi. Donec id lacus mi. Mauris risus eros, varius a bibendum vel, maximus ac lorem. Aenean non libero massa. Sed gravida purus eu nisi bibendum iaculis. Phasellus semper pellentesque mauris, eu lobortis lorem venenatis sit amet. Fusce ut dapibus est. Integer eu finibus ante. Vestibulum non vulputate ex. Aenean elementum, magna vitae tincidunt feugiat, nisl metus placerat justo, sit amet rutrum sapien quam ut nibh. Praesent eu nibh eleifend, aliquam ex sit amet, eleifend ante. Cras convallis accumsan ligula eu posuere. Vestibulum congue feugiat dui vel ultricies. Sed fermentum sed lectus sed facilisis. Cras sit amet consectetur odio, a pellentesque turpis. Aliquam ultricies ut dui eu vehicula. Suspendisse cursus dapibus molestie. Aenean sollicitudin congue nisl in hendrerit. Maecenas tempor eu justo ut sagittis. Aenean at ligula molestie, pellentesque sapien non, porttitor odio. Duis ullamcorper nulla sit amet feugiat cursus. Nunc molestie arcu quis elit pellentesque, at congue lorem faucibus. Suspendisse egestas libero id massa aliquam, sit amet blandit dui condimentum. Donec odio quam, sodales sit amet dolor a, egestas sodales est. In hac habitasse platea dictumst. Sed ut sodales ante, eu posuere nibh. Aliquam suscipit luctus est a venenatis. Nam tempus in diam et semper. Duis nec dignissim dolor, non suscipit libero. Sed elit ipsum, bibendum consectetur mattis non, congue vel sem. Nam fermentum ipsum id tortor hendrerit tempus. Ut eu magna semper mi faucibus pellentesque. Integer at leo semper neque tempus consequat at sit amet justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique felis libero, et pharetra eros dignissim ut. Mauris suscipit dapibus ex. Nullam tristique sit amet dolor sit amet interdum. Morbi varius, justo a interdum luctus, diam lacus dapibus tortor, vitae tempor risus sem a dolor. Mauris ornare ornare ipsum. Nullam et dictum sapien, non tempor lacus. Nulla consectetur eget ligula et iaculis. Sed eget dolor finibus, tempus diam ac, venenatis leo. In sagittis nunc nibh, a auctor arcu euismod non. Donec leo leo, consectetur eget enim venenatis, porttitor scelerisque odio. </p>
+</div>
+<p id="test">Testing Area</p>
+</div>
+<div>
+<map name="mapMap">
+<area class="clickable" shape="circle" coords="474, 322, 40" href="interactive_map_prototype_2.html" onclick="test2()">
+</map>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

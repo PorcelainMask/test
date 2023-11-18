@@ -1,0 +1,48 @@
+body{
+	width: 100%;
+	background-color: #446677;
+	background-image: url("images/fish.jpg");
+}
+p{
+	margin: 2px;
+}
+a{
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: #00ff00;
+	background-color: rgba(0, 100, 100, 0.6);
+	border: 3px solid rgba(0, 30, 30, 0.2);
+}
+#startText{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 64px;
+}
+#startLink{
+	width: 10vw;
+	margin: 16% auto 0 auto;
+}
+#tipLink{
+	width: 35vw;
+	margin: 3% auto 0 auto;
+}
+#map{
+	width: 80%;
+	float: left;
+}
+#info{
+	display: inline-block;
+	margin-left: 8px;
+	width: 15%;
+	height: 676px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border: 5px solid rgba(0, 0, 0, 0.2);
+	font-size: 14px;
+	overflow: scroll;
+}
+.clickable:hover{
+	cursor: pointer;
+	border: 3px solid #000000;
+}
