@@ -1,4 +1,9 @@
+/* Hide the body initially */
+body.hide {
+	opacity: 0;
+}
 body{
+	transition: opacity 0.5s; /* Add a smooth transition effect to the whole body */
 	width: 100%;
 	background-color: #446677;
 	background-image: url("images/fish.jpg");
